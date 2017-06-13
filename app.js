@@ -36,3 +36,5 @@ let doggie = {
     console.log("woof")
   }
 }
+
+let kermitHello = sayHello.bind(frog) // set `this` to be `frog`
